@@ -31,7 +31,8 @@ var versiony = (function(){
             console.log('---------------------------------------------')
         },
 
-        indent = '    '
+        indent = '    ',
+        eofNewline = false
 
     return {
         model: require('./model')(),
@@ -40,6 +41,12 @@ var versiony = (function(){
 
             this.model.reset()
             this.model.set(getVersion(version))
+
+            return this
+        },
+
+        eofNewline: function(value){
+            eofNewline = value
 
             return this
         },
@@ -144,7 +151,8 @@ var versiony = (function(){
                     json2file(
                         file,
                         version2json(this.model, json),
-                        indent
+                        indent,
+                        eofNewline
                     )
                 }
             } catch (ex){
