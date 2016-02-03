@@ -2,7 +2,7 @@
   "name": "versiony",
   "version": "1.3.1",
   "description": "A module to increment version number for your code/module. Support for npm/bower/custom files.",
-  "main": "v.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo no tests yet"
   },

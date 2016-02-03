@@ -1,4 +1,4 @@
-var versiony = require('./v')
+var versiony = require('./index')
 
 versiony
     .from('package.json')
