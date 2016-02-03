@@ -4,11 +4,11 @@
   "description": "A module to increment version number for your code/module. Support for npm/bower/custom files.",
   "main": "v.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo no tests yet"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/radubrehar/versiony.git"
+    "url": "git://github.com/ciena-blueplanet/versiony.git"
   },
   "keywords": [
     "version",
@@ -23,7 +23,7 @@
   "author": "Radu Brehar",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/radubrehar/versiony/issues"
+    "url": "https://github.com/ciena-blueplanet/versiony/issues"
   },
   "dependencies": {}
 }
