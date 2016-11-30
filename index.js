@@ -31,7 +31,7 @@ var versiony = (function(){
             console.log('---------------------------------------------')
         },
 
-        indent = '    ',
+        indent = '  ',
         eofNewline = false
 
     return {
