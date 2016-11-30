@@ -1,10 +1,11 @@
 {
     "name": "versiony",
     "main": "index.js",
-    "version": "1.1.1",
-    "homepage": "https://github.com/radubrehar/versiony",
+    "version": "1.1.2",
+    "homepage": "https://github.com/codehatcher/versiony",
     "authors": [
-        "Radu.Brehar <radu@jslog.com>"
+        "Radu.Brehar <radu@jslog.com>",
+        "Avishaan Sethi <nonamhere>"
     ],
     "description": "test",
     "keywords": [

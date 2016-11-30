@@ -4,7 +4,7 @@ module.exports = function(file, contents, indent, eofNewline){
     var data
 
     if (indent == null) {
-        indent = '    '
+        indent = '  '
     }
 
     if (typeof contents != 'string'){
